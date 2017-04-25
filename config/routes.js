@@ -6,9 +6,9 @@ var express = require('express'),
 var ProjectsController = require('../controllers/projects');
 
 
-router.route('/portfolio-2')
+// router.route('/portfolio-2')
 
   //see my work
-  .get(ProjectsController.getAll)
+  // .get(ProjectsController.getAll)
 
   module.exports = router
