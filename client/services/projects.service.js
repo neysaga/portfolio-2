@@ -13,4 +13,3 @@ function ProjectsService($http) {
 	// 	return $http.get('/api/portfolio');
 	}
 
-}

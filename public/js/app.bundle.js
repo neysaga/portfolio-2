@@ -318,7 +318,18 @@ angular.module('portfolio-2').component('resume', component);
 /* 17 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: SyntaxError: Unexpected token (16:0)\n\n\u001b[0m \u001b[90m 14 | \u001b[39m\t}\n \u001b[90m 15 | \u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 | \u001b[39m}\n \u001b[90m    | \u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n");
+angular.module('portfolio-2').service('projectsService', projectsService);
+
+projectsService.$inject = ['$http'];
+
+function ProjectsService($http) {
+	const self = this;
+
+	// self.loadAll = loadAll;
+
+	// 	function loadAll() {
+	// 	return $http.get('/api/portfolio');
+}
 
 /***/ }),
 /* 18 */
@@ -38398,13 +38409,13 @@ module.exports = angular;
 /* 21 */
 /***/ (function(module, exports) {
 
-module.exports = "  <div class=\"col s12 m7\">\n    \n    <div class=\"card horizontal\">\n      <div class=\"card-image medium\">\n        <img src=\"http://i.imgur.com/fqIoY8v.jpg\">\n      </div>\n      <div class=\"card-stacked\">\n        <div class=\"card-content\">\n          <p>I'm a full stack web developer with a diverse background in sociology, photography, and activism. I have a big imagination and a passion for technology. My unique perspective solidified my communication skills as I developed a strong sense of empathy for others. </p>\n          <br>\n          <p>The foundation of my technical skills were built at General Assembly. I had the priviledge of learning how to program from leading Atlanta developers who shared their love for technology, implementing best practices, and most importantly, learning <em>how</em> to learn.</p>\n        </div>\n        <div class=\"card-action\">\n          <a ui-sref=\"home\">return to home page</a>\n        </div>\n      </div>\n    </div>\n  </div>";
+module.exports = "  <div class=\"col s12 m7\">\n    \n    <div class=\"card horizontal\">\n      <div class=\"card-image medium\">\n        <img src=\"http://i.imgur.com/fqIoY8v.jpg\">\n      </div>\n      <div class=\"card-stacked\">\n        <div class=\"card-content\">\n          <p>I'm a full stack web developer with a diverse background in sociology, photography, and activism. I have a big imagination and a passion for technology. My unique perspective solidified my communication skills as I developed a strong sense of empathy for others. </p>\n          <br>\n          <p>The foundation of my technical skills were built at General Assembly. I had the priviledge of learning how to program from leading Atlanta developers who shared their love for technology, implementing best practices, and most importantly, learning <em>how</em> to learn.</p>\n          <br>\n          <p><a href=\"https://github.com/neysa21\">find me on github</a></p>\n        </div>\n        <div class=\"card-action\">\n          <a ui-sref=\"home\">return to home page</a>\n        </div>\n      </div>\n    </div>\n  </div>";
 
 /***/ }),
 /* 22 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"hello\">Say Hello</div>\n\t<div class=\"card white\">\n\t\t<div>\n\t<form ng-submit=\"\">\n\t\t<label for=\"name\">Name</label>\n\t\t<input id=\"name\" type=\"text\" ng-model=\"\" />\n\n\t\t<label for=\"email\">email</label>\n\t\t<input id=\"email\" type=\"text\" ng-model=\"\" />\n\n\t\t<button type=\"submit\">Send</button>\n\t</form>\n</div>\n\t</div>\n\t";
+module.exports = "<div class=\"hello\">Say Hello</div>\n\t<div class=\"card white\">\n\t\t\n\n\t</div>\n\t";
 
 /***/ }),
 /* 23 */
