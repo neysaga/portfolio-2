@@ -13,11 +13,11 @@ mongoose.connect(uri);
 
 var db = mongoose.connection
 
-// if (process.env.MONGODB_URI) {
-//   mongoose.connect(process.env.MONGODB_URI)
-// } else {
-//   mongoose.connect('mongodb://localhost/portfolio-2');
-// }
+if (process.env.MONGODB_URI) {
+  mongoose.connect(process.env.MONGODB_URI)
+} else {
+  mongoose.connect('mongodb://localhost/portfolio-2');
+}
 
 
 app.use(express.static('./public'));
