@@ -7,10 +7,10 @@ projectsService.$inject = ['$http'];
 function ProjectsService($http) {
 	const self = this;
 
-	self.loadAll = loadAll;
+	// self.loadAll = loadAll;
 
-		function loadAll() {
-		return $http.get('/api/portfolio');
+	// 	function loadAll() {
+	// 	return $http.get('/api/portfolio');
 	}
 
 }

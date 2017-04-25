@@ -318,19 +318,7 @@ angular.module('portfolio-2').component('resume', component);
 /* 17 */
 /***/ (function(module, exports) {
 
-angular.module('portfolio-2').service('projectsService', projectsService);
-
-projectsService.$inject = ['$http'];
-
-function ProjectsService($http) {
-	const self = this;
-
-	self.loadAll = loadAll;
-
-	function loadAll() {
-		return $http.get('/api/portfolio');
-	}
-}
+throw new Error("Module build failed: SyntaxError: Unexpected token (16:0)\n\n\u001b[0m \u001b[90m 14 | \u001b[39m\t}\n \u001b[90m 15 | \u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 | \u001b[39m}\n \u001b[90m    | \u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n");
 
 /***/ }),
 /* 18 */

@@ -5,12 +5,12 @@ var bodyParser = require('body-parser') //parses information from POST
 var Project = require('../models/Project');
 
 // GET
-router.get('/portfolio', function indexAction(request, response) {
-  Project.find(function(error, projects) {
-    if(error) response.json({message: 'Could not find any projects'});
+// router.get('/portfolio', function indexAction(request, response) {
+//   Project.find(function(error, projects) {
+//     if(error) response.json({message: 'Could not find any projects'});
 
-    response.json({projects: projects});
-  })
-});
+//     response.json({projects: projects});
+//   })
+// });
 
 module.exports = router;

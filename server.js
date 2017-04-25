@@ -8,7 +8,7 @@ var db = mongoose.connection
 mongoose.connect('mongodb://localhost/portfolio-2');
 
 
-app.use(express.static('public'));
+app.use(express.static('./public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
