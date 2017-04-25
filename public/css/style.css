@@ -1,0 +1,41 @@
+.greeting {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 60px;
+	text-align: center;
+	margin-top:200px;
+	margin-left: 400px;
+	letter-spacing: 7px;
+	color: #FAFAEC; 
+	width: 510px;
+	height: 80px;
+	text-style: italic;
+	
+}
+
+body {
+	background-image: url("http://i.imgur.com/zcCrCGl.jpg"); no-repeat center center fixed;
+	background-size: cover;
+}
+
+.navbar {
+	background-color: #262626;
+
+}
+.subgreeting {
+	font-size: 25px;
+	text-align: center;
+}
+.validate {
+	color: white;
+}
+.project1, .project2, .project3 {
+	font-size: 30px;
+
+}
+.mywork {
+	font-size: 40px;
+	text-align: center;
+}
+.project1:hover, .project2:hover, .project3:hover {
+	color: #99CCFF;
+}
