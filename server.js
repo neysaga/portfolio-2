@@ -15,4 +15,5 @@ app.use(bodyParser.urlencoded({ extended: true }));
 var portfolioController = require('./controllers/projects.js');
 app.use('/api/portfolio', portfolioController);
 
-app.listen(3000);
+const port = process.env.PORT || 3000;
+app.listen(port);
