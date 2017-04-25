@@ -5,7 +5,7 @@ var bodyParser = require('body-parser') //parses information from POST
 var Project = require('../models/Project');
 
 // GET
-router.get('/', function indexAction(request, response) {
+router.get('/portfolio', function indexAction(request, response) {
   Project.find(function(error, projects) {
     if(error) response.json({message: 'Could not find any projects'});
 
