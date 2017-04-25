@@ -5,11 +5,7 @@ var app = express();
 
 var mongoose = require('mongoose');
 
-var uri = 'mongodb://user:pass@host:port/db';
 
-mongoose.Promise = global.Promise
-
-mongoose.connect(uri);
 
 var db = mongoose.connection
 
