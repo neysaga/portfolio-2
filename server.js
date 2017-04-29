@@ -6,7 +6,6 @@ var app = express();
 var mongoose = require('mongoose');
 
 
-
 var db = mongoose.connection
 
 if (process.env.MONGODB_URI) {
